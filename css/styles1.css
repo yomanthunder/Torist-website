@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    
+}
+
+
+
+/* heading*/
+.headingpart1{
+    width:20%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+   font-family: 'Sacramento', cursive;
+   font-size: 3.125rem;
+}
+
+.heading2part1{
+    width: 20%;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.workheading1{
+    font-size: 200px;
+    text-align: center;
+}
+
+
+
+
+/*Paraggraph */
+.paragraphpart1{
+    width:20%;
+    margin:auto;
+    padding:35px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5625rem;
+   
+}
+
+/*image */
+.image1{
+    width:65%;
+    position: relative;
+    left: 20%;
+    padding-top: 50px;
+
+}
+.image2{
+    width: 10%;
+}
+.image3{
+    width: 13%;
+}
+.image4{
+    display:inline-block;
+    position :relative;
+    width: 25px;
+}
+.image5{
+    display:inline-block;
+    position :relative;
+    width: 25px;
+    margin-left: 10px;
+}
+.image6{
+    display:inline-block;
+    position :relative;
+    width: 25px;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+.image7{
+    width: 200px;
+    margin-left: 0px;
+}
+
+
+.workpic1{
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.workpic2{
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+.workpic3{
+    width: 200px;
+}
+/* containers*/
+.top-container2{
+    text-align: center;
+}
+.middle-container2{
+    text-align: center;
+}
+.bottom-container2{
+    margin: auto;
+}
+.-container3{
+text-align: center;
+
+}
+.top-container3{
+    text-align: center;
+}
+.middle-container3{
+    text-align: center;
+}
+.bottom-container3{
+    margin: auto;
+}
+.workbody1{
+    background-color: #DDF7E3;
+    font-family: 'Sacramento', cursive;
+   
+}
+.workbody2{
+    padding-top: 200px;
+}
+
+.worktopcontainer1{
+   
+    text-align: center;
+}
+.workmiddlecontainer1{
+    text-align: center;
+    line-height: 3;
+}
+.workbody3{
+    background-color: #EEEEEE;
+   
+    height: 500px;
+}
+.workbody4{
+    width: 1000px;
+    position: absolute;
+    top: 1200px;
+    left: 500px;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
+}
+
+
+/* Div */
+.navpart1{
+    text-align: center;
+}
+.navpart2{
+    margin-top: 200px;
+    text-align: center;
+}
+
+
+
+
+
+
+.bodypart2{
+    
+    width: 75%;
+    height: 100%; 
+    padding-top: 50px ;
+    margin: auto;
+}
+.bodypart3{
+    width: 75%;
+    height: 100%; 
+    padding-top: 100px ;
+    margin: auto;
+    line-height: 2;
+}
+
+
+
+.background1{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.background1::before{
+    content: '';
+    background-image: url(images.png/hemendra-ahuja-cUAJLjUjLqI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right:0;
+    ;
+}
+nav{
+    background-color: #DDF7E3;
+    height: 100px;
+    
+}
+
+.logopic1{
+    height: 120px;
+    width: 120px;
+    padding: 4px;
+    display: inline-block;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+nav label{
+font-size: 30px;
+
+color: #5D9C59;
+cursor: pointer;
+
+}
+nav ul{
+    float: right;
+}
+nav li{
+    
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    ;
+
+}
+nav li a{
+    padding: 10px;
+    color: #5D9C59;
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+   
+}
+.navpart1{
+   
+        background-color: #DDF7E3;
+
+        
+}
+
+
+
+.contact{
+    right: 250px;
+    top: 20px;
+}
+.about{
+    right: 450px;
+    top: 20px;
+}
+.work{
+    right: 360px;
+    top: 20px;
+}
+
+
+nav li  a:hover{
+    color: #40513B;
+}
+.bodypart1{
+    background-color:#DDF7E3 ;
+}
+hr{
+   margin: 100px auto 100px auto;
+    border: none;
+    border-top: 5px dotted #F0EEED;
+    color:#fff;
+    background-color: #fff;
+    height: 1px;
+    width: 3%;
+    
+}

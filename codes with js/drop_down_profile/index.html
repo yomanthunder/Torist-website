@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="hero">
+<nav>
+    <img src="images/Travellogo-removebg-preview (2).png" alt="" class="logo">
+    <img src="images/download-removebg-preview.png" onclick="toggleMenu()">
+    <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+            <div class="user-info">
+                <img src="images/download-removebg-preview.png">
+            <h3>Username</h3>
+            </div>
+            <hr>
+            <a href="#"  class="sub-menu-link">
+                <img src="images/profile.png" alt="">
+                <p>Edii Profile</p>
+                <span></span>
+            </a>
+            <a href="#"  class="sub-menu-link">
+                <img src="images/setting.png" alt="">
+                <p>Setting</p>
+                <span></span>
+            </a>
+            <a href="#"  class="sub-menu-link">
+                <img src="images/help.png" alt="">
+                <p>Help & Support</p>
+                <span></span>
+            </a>
+            <a href="#"  class="sub-menu-link">
+                <img src="images/logout.png" alt="">
+                <p>Logout</p>
+                <span></span>
+            </a>
+        </div>
+    </div>
+
+    
+</nav>
+
+    </div>
+<script>
+
+let subMenu=document.getElementById("subMenu")
+function toggleMenu(){
+    subMenu.classList.toggle("open-menu");
+}
+</script>
+</body>
+</html>
